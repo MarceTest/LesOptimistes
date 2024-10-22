@@ -49,7 +49,7 @@ class InformationMediator:
             matches.append(re.findall(pattern, conds[i])[0])
 
         for i in range(len(conds)):
-            pattern=conds[i].split(f'{matches[i]}')[0]
+            pattern = conds[i].split(f'{matches[i]}')[0].strip()
             if ( pattern in df1Cols) and (pattern in df2Cols) and (pattern in df3Cols) and (pattern in df4Cols):
                 cond_api1.append(conds[i]), cond_api2.append(conds[i]), 
                 cond_api3.append(conds[i]), cond_api4.append(conds[i])
