@@ -104,6 +104,7 @@ class InformationMediator:
     
     
     def data(self, Query):
+        start_time = time.time()
         print('\n ---------------- Initial shapes start ----------------')
         
         informationMediator = InformationMediator()
@@ -147,5 +148,6 @@ class InformationMediator:
         df_final = self.jointure(dfs, projected_apis)
         
         print('\n ---------------- ⋈ end ----------------')
-        
+        elapsed_time =abs(time.time() - start_time)
+        print("Temps d'exécution : ", elapsed_time, " secondes.")
         return df_final
