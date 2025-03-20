@@ -1,0 +1,21 @@
+{
+    "Auvergne-Rhône-Alpes": {"Nombre": 5031},
+    "Grand Est": {"Nombre": 4994},
+    "Nouvelle-Aquitaine": {"Nombre": 4705},
+    "Occitanie": {"Nombre": 4664},
+    "Hauts-de-France": {"Nombre": 3370},
+    "Bourgogne-Franche-Comté": {"Nombre": 3032},
+    "Centre-Val de Loire": {"Nombre": 2637},
+    "Pays de la Loire": {"Nombre": 2102},
+    "Île-de-France": {"Nombre": 2016},
+    "Normandie": {"Nombre": 1963},
+    "Bretagne": {"Nombre": 1691},
+    "Provence-Alpes-Côte d'Azur": {"Nombre": 1423},
+    "Corse": {"Nombre": 190},
+    "Guadeloupe": {"Nombre": 61},
+    "La Réunion": {"Nombre": 50},
+    "Guyane": {"Nombre": 41},
+    "Mayotte": {"Nombre": 35},
+    "Martinique": {"Nombre": 30}
+  }
+  
